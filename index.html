@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Baki</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/Imagens/logo bak.png" alt="Logo Baki">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="baki-hanma" data-name="Baki Hanma"
+                    data-description="Baki Hanma possui força sobre-humana, velocidade incrível, resistência extrema, maestria em artes marciais e uma ampla variedade de habilidades de combate letais.">
+                    <img src="./src/Imagens/card-baki-hanma.jpg" alt="Personagem Baki Hanma">
+                </li>
+                <li class="personagem" id="jack-hanma" data-name="Jack Hanma"
+                    data-description="Características Físicas Sobre-Humanas, Controle Corporal, Lutador de Rua Experiente, Manipulação do Chi, Modo Berserk, Tolerância à Dor Extrema, Resistência a Venenos, Artes Marciais, Visão de Raio X.">
+                    <img src="./src/Imagens/card-jack-hanma.jpg" alt="Personagem Jack Hanma">
+                </li>
+                <li class="personagem" id="oliva-biscuit" data-name="Oliva Biscuit"
+                    data-description="Gigantesco, músculos densos que repeliram tiros e golpes afiados, resistência e tolerância à dor incríveis, força avassaladora, velocidade de recuperação desumana.">
+                    <img src="./src/Imagens/card-oliva-biscuit.jpg" alt="Personagem Oliva Biscuit">
+                </li>
+                <li class="personagem" id="retsu-kaioh" data-name="Retsu Kaioh"
+                    data-description="Força avassaladora, golpe poderoso, habilidades com armas variadas, táticas sujas, estado mental Mushin, despertou o 'espírito Hanma', busca constante pelo poder.">
+                    <img src="./src/Imagens/card-retsu-kaioh.jpg" alt="Personagem Retsu Kaioh">
+                </li>
+                <li class="personagem" id="yujiro-hanma" data-name="Yujiro Hanma"
+                    data-description="Aterrorizante e indomável, ele é a encarnação da força absoluta, superando qualquer ser vivo. Uma criatura temida e inigualável em poder.">
+                    <img src="./src/Imagens/card-yujiro-hanma.jpg" alt="Personagem Yujiro Hanma">
+                </li>
+
+                <li class="personagem" id="katsumi-orochi" data-name="Katsumi Orochi"
+                    data-description="Lutador incrível, técnicas de karatê letais, incrível durabilidade e tolerância à dor, velocidade e agilidade impressionantes, socos poderosos e rápidos.">
+                    <img src="./src/Imagens/card-katsumi-orochi.jpg" alt="Personagem Katsumi Orochi">
+                </li>
+                <li class="personagem" id="kaoru-hanayama" data-name="Kaoru Hanayama"
+                    data-description="Hanayama, o intimidante gângster da Yakuza, confia em sua força bruta e controle impecável. Seus poderosos músculos resistem a ataques de espada e seu soco fez Yujiro sangrar.">
+                    <img src="./src/Imagens/card-kaoru-hanayama.jpg" alt="Personagem Kaoru Hanayama">
+                </li>
+                <li class="personagem" id="motobe-izou" data-name="Motobe Izou"
+                    data-description="Artista marcial pragmático, derrota adversários poderosos como Jack Hanma e Musashi Miyamoto usando inteligência tática, armas e estratégias, apesar de sua fraqueza física.">
+                    <img src="./src/Imagens/card-motobe-izou.jpg" alt="Personagem Motobe Izou">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/Imagens/card-baki-hanma.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Baki Hanma</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Baki Hanma possui força sobre-humana, velocidade
+                    incrível, resistência extrema, maestria em artes marciais e uma ampla variedade de habilidades de combate letais. </p>
+            </div>
+        </section>
+    </main>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
